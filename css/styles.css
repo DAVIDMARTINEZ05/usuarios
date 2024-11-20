@@ -9,5 +9,40 @@ h1 {
   text-align: center;
   color: #333;
 }
+#listaUsuarios{
+  width:auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#tarjeta{
+  background-color: white;
+  border: #333 1px solid;
+}
+h2{
+  font-size: 15px;
+}
+p{
+  font-size:13px;
 
+  }
 
+.cuadrado {
+  
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: #333 1px solid;
+  padding:10px;
+  flex-direction: row-reverse;
+  background-color:white;
+  justify-content: space-between;
+  gap: 10px;
+ 
+}
+
+img{
+width: 100px;
+}
+.otroCuadrado{
+  padding:0px 10px;
+}
